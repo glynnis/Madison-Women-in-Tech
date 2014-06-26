@@ -1,9 +1,8 @@
 {% include header.html %}
 
-.blue
-  .about-image
+.wrapper
   %h1 {{ page.h1 }}
+  .content
+    {{ content }}
 
-{{ content }}
-
-{% include footer.html %}
+  {% include footer.html %}

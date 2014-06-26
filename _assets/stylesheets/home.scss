@@ -1,21 +1,25 @@
-$serif: "jubilat", serif, georgia, times;
+$display: "jubilat", serif, georgia, times;
+$body: "lemonde-journal", serif, georgia, times;
 $yellow: #C9B34E;
 
+body {
+  background-image: url('/img/background.png');
+}
 h1 {
-  font-family: $serif;
+  font-family: $display;
   font-size: 4em;
   color: white;
 }
 h2 {
-  font-family: $serif;
+  font-family: $display;
   font-size: 2em;
-  color: #333333;
+  color: #666666;
   margin-top: 1em;
 }
 p {
-  font-family: "open-sans", sans-serif, helvetica, arial;
+  font-family: $body;
   color: #666666;
-  font-size: 0.9em;
+  font-size: 1.2em;
   line-height: 1.6;
   margin: 1em 0;
 }
@@ -33,22 +37,22 @@ a, a:link {
     color: #6B7B83;
   }
 }
-.hero {
-  height: 15em;
-  background-image: url('/img/background.png');
-  position: relative;
-  h1 {
-    position: absolute;
-    bottom: 2em;
-    left: 5%;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
+.wrapper {
+  width: 80%;
+  margin: 5em auto;
+}
+.content {
+  background: white;
+  margin: 2em 0;
+  padding: 1em 3em;
+  width: 45em;
+  box-sizing: border-box;
+  border-radius: 0.7em;
+  -webkit-border-radius: 0.7em;
+  -moz-border-radius: 0.7em;
 }
 .footer {
-  margin-top: 8em;
+  margin-top: 0;
   p {
     color: #666666;
     font-size: 0.8em;
