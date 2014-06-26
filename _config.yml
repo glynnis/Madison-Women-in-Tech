@@ -1,0 +1,9 @@
+markdown: rdiscount
+highlighter: pygments
+
+# ftp_host: 'glynnisritchie.com'
+# ftp_dir: '/home/glynnisritchie/glynnisritchie.com'
+# ftp_passive: false
+
+# optional
+# ftp_port: 21                  # default 21

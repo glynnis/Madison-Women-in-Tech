@@ -1,0 +1,22 @@
+{% include header.html %}
+
+%nav
+  :erb
+    <a href="/">Home</a>
+    <a href="/video">Videography</a>
+    <a href="/design">Design</a>
+    <a href="/about">About</a>
+
+.blue
+  .about-image
+  %h1 {{ page.title }}
+
+.about-text
+  {{ content }}
+
+.post-nav
+  :erb
+    <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+
+{% include footer.html %}
