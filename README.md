@@ -3,7 +3,7 @@ Madison Women in Tech (madisonwomenintech.com)
 
 This is the repo for the Madison Women in Tech website. The site is an easy way to point members to our shared spaces online, and to share resources and announcements. It's also the easiest way to sign up for our new newsletter.
 
-## Getting started
+### Getting started
 
 The site is built in Jekyll, which is a static site generator based in Ruby. Check out the Jekyll docs here: http://jekyllrb.com/docs/home/
 
@@ -20,7 +20,7 @@ Like Rails, Jekyll uses layouts files to create the main markup of the site. `_l
 
 `index.haml` contains all the main content and copy of the current site. If you have content to add to the homepage, add it here.
 
-## Building the site
+### Building the site
 
 When you've modified files and are ready to view the site locally, type `rake preview` in your terminal to build the site (building without running a server can be done with `rake build`). Then visit `http://localhost:4000/` in your browser.
 
