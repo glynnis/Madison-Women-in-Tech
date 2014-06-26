@@ -1,32 +1,13 @@
-nav {
-  float: right;
-  z-index: 100;
-  position: relative;
-  top: 2em;
-  right: 4em;
-  font-family: "open-sans", sans-serif, helvetica, arial;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  a, a:link {
-    color: #FFFFFF;
-    font-weight: normal;
-    text-decoration: none;
-    padding: 0.6em;
-    &:hover {
-      color: #FFFFFF;
-    }
-    &:visited {
-      color: #FFFFFF;
-    }
-  }
-}
+$serif: "jubilat", serif, georgia, times;
+$yellow: #C9B34E;
+
 h1 {
-  font-family: "prenton-display", sans-serif, helvetica, arial;
+  font-family: $serif;
   font-size: 4em;
   color: white;
 }
 h2 {
-  font-family: "prenton-display", sans-serif, helvetica, arial;
+  font-family: $serif;
   font-size: 2em;
   color: #333333;
   margin-top: 1em;
@@ -41,11 +22,6 @@ p {
 em {
   font-style: italic;
 }
-.caption {
-  p {
-    font-size: 0.8em;
-  }
-}
 a, a:link {
   color: #1FAAB6;
   font-weight: bold;
@@ -57,9 +33,9 @@ a, a:link {
     color: #6B7B83;
   }
 }
-.blue {
+.hero {
   height: 15em;
-  background-color: #a4c3ca;
+  background-image: url('/img/background.png');
   position: relative;
   h1 {
     position: absolute;
@@ -71,78 +47,11 @@ a, a:link {
     transition: all 0.2s ease-in-out;
   }
 }
-.about-image {
-  z-index: 1000;
-  background-image: url("/img/self_portrait.png");
-  background-repeat: no-repeat;
-  background-position: 50% 9em;
-  height: 315px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.about-text {
-  margin: 6em 6%;
-}
 .footer {
   margin-top: 8em;
   p {
     color: #666666;
     font-size: 0.8em;
     padding: 1em 2em;
-  }
-}
-.typekit-badge {
-  display: none !important;
-}
-.design-portfolio {
-  margin: 6em 6%;
-  img {
-    max-width: 100%;
-  }
-}
-.post-date {
-  font-family: "open-sans", sans-serif, helvetica, arial;
-  color: #999999;
-  font-size: 0.7em;
-  text-transform: uppercase;
-  line-height: 1.6;
-  margin: 0.4em 0;
-}
-
-/* Viewer width ≥ 600px */
-@media screen and (min-width: 600px) {
-  .blue {
-    h1 {
-      bottom: 0.2em;
-      left: 35%;
-    }
-  }
-  .about-image {
-    background-position: 5% 9em;
-  }
-  .about-text {
-    margin: 2em 5% 0 35.5%;
-  }
-  .design-portfolio {
-    margin: 2em 5% 0 35.5%;
-  }
-}
-
-/* Viewer width ≥ 900px */
-@media screen and (min-width: 900px) {
-  .about-image {
-    background-position: 17% 9em;
-  }
-  .about-text {
-    margin: 2em 0 0 35.5%;
-    width: 50%;
-    max-width: 37em;
-  }
-  .design-portfolio {
-    margin: 2em 0 0 35.5%;
-    width: 50%;
-    max-width: 37em;
   }
 }
