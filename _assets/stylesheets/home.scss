@@ -34,6 +34,48 @@ body {
   font-size: 1.4em;
   color: #666666;
 }
+#mc_embed_signup .button {
+  clear: both;
+  background-color: #666666 !important;
+  border: 0 none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5em !important;
+  font-weight: 100 !important;
+  font-family: $display;
+  height: auto !important;
+  line-height: auto !important;
+  margin: 0 5px 10px 0;
+  padding: .2em 1em !important;
+  vertical-align: top;
+  white-space: nowrap;
+  width: auto;
+}
+#mc_embed_signup .button:focus {
+  background-color: #999999 !important;
+  color: #FFFFFF !important;
+}
+#mc_embed_signup div.mce_inline_error {
+  margin: -2px 0 1em 0 !important;
+  padding: 10px !important;
+  background-color: #BD3500 !important;
+  font-weight: bold;
+  z-index: 1;
+  color: #fff;
+  border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  -webkit-border-radius: 0 0 6px 6px;
+}
+#mc_embed_signup input.mce_inline_error:focus {
+  background-color: #fff1f0 !important;
+}
+#mc_embed_signup input.mce_inline_error {
+  border: 2px solid #c63d18 !important;
+  background-color: #fff1f0;
+  border-radius: 6px 6px 0 0;
+}
 h1 {
   font-family: $display;
   font-size: 3em;
