@@ -5,6 +5,35 @@ $yellow: #C9B34E;
 body {
   background-image: url('/img/background.png');
 }
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+#mc_embed_signup .mc-field-group input{
+  padding: 0.8em !important;
+  text-indent: 0 !important;
+  font-family: $body;
+  font-size: 1.2em;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #F7F6F5;
+  color: #999999 !important;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-color: transparent;
+}
+#mc_embed_signup input:focus {
+  border-color: #B29E71 !important;
+  background-color: rgb(246, 243, 228) !important;
+  color: #666666 !important;
+}
+#mc_embed_signup .mc-field-group label {
+  font-family: $display;
+  margin-bottom: 0.5em !important;
+  font-size: 1.4em;
+  color: #666666;
+}
 h1 {
   font-family: $display;
   font-size: 3em;
